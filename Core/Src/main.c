@@ -22,7 +22,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "modbus.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -147,11 +147,7 @@ int main(void)
 		registers[8] = (uint16_t) HAL_ADC_GetValue(&hadc2);
 
 
-		//test commit
-		while(1)
-		{
-			malloc(69);
-		}
+
 
 	}
 	/* USER CODE END 3 */
