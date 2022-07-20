@@ -1,0 +1,3 @@
+modbus.c:61:13:crc16	24	static
+modbus.c:82:8:handleComms	16	static
+modbus.c:118:6:modBusSend	16	static
