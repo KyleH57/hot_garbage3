@@ -146,6 +146,13 @@ int main(void)
 		HAL_ADC_PollForConversion(&hadc2, 5);
 		registers[8] = (uint16_t) HAL_ADC_GetValue(&hadc2);
 
+
+		//test commit
+		while(1)
+		{
+			malloc(69);
+		}
+
 	}
 	/* USER CODE END 3 */
 }
